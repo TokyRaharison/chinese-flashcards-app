@@ -1,0 +1,1856 @@
+{
+  "hsk1": {
+    "name": "HSK 1",
+    "description": "Niveau débutant - 150 mots",
+    "characters": [
+      {
+        "character": "我",
+        "pinyin": "wǒ",
+        "translation": "je, moi"
+      },
+      {
+        "character": "我们",
+        "pinyin": "wǒmen",
+        "translation": "nous"
+      },
+      {
+        "character": "你",
+        "pinyin": "nǐ",
+        "translation": "tu"
+      },
+      {
+        "character": "他",
+        "pinyin": "tā",
+        "translation": "il"
+      },
+      {
+        "character": "她",
+        "pinyin": "tā",
+        "translation": "elle"
+      },
+      {
+        "character": "这",
+        "pinyin": "zhè",
+        "translation": "ceci"
+      },
+      {
+        "character": "那",
+        "pinyin": "nà",
+        "translation": "cela"
+      },
+      {
+        "character": "哪",
+        "pinyin": "nǎ",
+        "translation": "quel/quelle"
+      },
+      {
+        "character": "哪儿",
+        "pinyin": "nǎr",
+        "translation": "où"
+      },
+      {
+        "character": "谁",
+        "pinyin": "shéi",
+        "translation": "qui"
+      },
+      {
+        "character": "什么",
+        "pinyin": "shénme",
+        "translation": "quoi"
+      },
+      {
+        "character": "多少",
+        "pinyin": "duōshǎo",
+        "translation": "combien"
+      },
+      {
+        "character": "几",
+        "pinyin": "jǐ",
+        "translation": "quelques, combien"
+      },
+      {
+        "character": "怎么",
+        "pinyin": "zěnme",
+        "translation": "comment"
+      },
+      {
+        "character": "怎么样",
+        "pinyin": "zěnmeyàng",
+        "translation": "comment ça va"
+      },
+      {
+        "character": "一",
+        "pinyin": "yī",
+        "translation": "un"
+      },
+      {
+        "character": "二",
+        "pinyin": "èr",
+        "translation": "deux"
+      },
+      {
+        "character": "三",
+        "pinyin": "sān",
+        "translation": "trois"
+      },
+      {
+        "character": "四",
+        "pinyin": "sì",
+        "translation": "quatre"
+      },
+      {
+        "character": "五",
+        "pinyin": "wǔ",
+        "translation": "cinq"
+      },
+      {
+        "character": "六",
+        "pinyin": "liù",
+        "translation": "six"
+      },
+      {
+        "character": "七",
+        "pinyin": "qī",
+        "translation": "sept"
+      },
+      {
+        "character": "八",
+        "pinyin": "bā",
+        "translation": "huit"
+      },
+      {
+        "character": "九",
+        "pinyin": "jiǔ",
+        "translation": "neuf"
+      },
+      {
+        "character": "十",
+        "pinyin": "shí",
+        "translation": "dix"
+      },
+      {
+        "character": "个",
+        "pinyin": "gè",
+        "translation": "(classificateur)"
+      },
+      {
+        "character": "岁",
+        "pinyin": "suì",
+        "translation": "âge"
+      },
+      {
+        "character": "本",
+        "pinyin": "běn",
+        "translation": "livre"
+      },
+      {
+        "character": "些",
+        "pinyin": "xiē",
+        "translation": "quelques"
+      },
+      {
+        "character": "块",
+        "pinyin": "kuài",
+        "translation": "morceau, yuan"
+      },
+      {
+        "character": "不",
+        "pinyin": "bù",
+        "translation": "non"
+      },
+      {
+        "character": "没",
+        "pinyin": "méi",
+        "translation": "ne pas (avoir)"
+      },
+      {
+        "character": "很",
+        "pinyin": "hěn",
+        "translation": "très"
+      },
+      {
+        "character": "太",
+        "pinyin": "tài",
+        "translation": "trop"
+      },
+      {
+        "character": "都",
+        "pinyin": "dōu",
+        "translation": "tous"
+      },
+      {
+        "character": "一点儿",
+        "pinyin": "yīdiǎnr",
+        "translation": "un peu"
+      },
+      {
+        "character": "和",
+        "pinyin": "hé",
+        "translation": "et"
+      },
+      {
+        "character": "在",
+        "pinyin": "zài",
+        "translation": "à, dans"
+      },
+      {
+        "character": "的",
+        "pinyin": "de",
+        "translation": "(particule possessive)"
+      },
+      {
+        "character": "了",
+        "pinyin": "le",
+        "translation": "(particule)"
+      },
+      {
+        "character": "吗",
+        "pinyin": "ma",
+        "translation": "(particule interrogative)"
+      },
+      {
+        "character": "呢",
+        "pinyin": "ne",
+        "translation": "(particule)"
+      },
+      {
+        "character": "喂",
+        "pinyin": "wèi",
+        "translation": "allô"
+      },
+      {
+        "character": "家",
+        "pinyin": "jiā",
+        "translation": "maison, famille"
+      },
+      {
+        "character": "学校",
+        "pinyin": "xuéxiào",
+        "translation": "école"
+      },
+      {
+        "character": "饭店",
+        "pinyin": "fàndiàn",
+        "translation": "restaurant"
+      },
+      {
+        "character": "商店",
+        "pinyin": "shāngdiàn",
+        "translation": "magasin"
+      },
+      {
+        "character": "医院",
+        "pinyin": "yīyuàn",
+        "translation": "hôpital"
+      },
+      {
+        "character": "中国",
+        "pinyin": "Zhōngguó",
+        "translation": "Chine"
+      },
+      {
+        "character": "北京",
+        "pinyin": "Běijīng",
+        "translation": "Pékin"
+      },
+      {
+        "character": "上",
+        "pinyin": "shàng",
+        "translation": "sur, au-dessus"
+      },
+      {
+        "character": "下",
+        "pinyin": "xià",
+        "translation": "sous, en bas"
+      },
+      {
+        "character": "前面",
+        "pinyin": "qiánmiàn",
+        "translation": "devant"
+      },
+      {
+        "character": "后面",
+        "pinyin": "hòumiàn",
+        "translation": "derrière"
+      },
+      {
+        "character": "里",
+        "pinyin": "lǐ",
+        "translation": "dedans"
+      },
+      {
+        "character": "今天",
+        "pinyin": "jīntiān",
+        "translation": "aujourd'hui"
+      },
+      {
+        "character": "明天",
+        "pinyin": "míngtiān",
+        "translation": "demain"
+      },
+      {
+        "character": "昨天",
+        "pinyin": "zuótiān",
+        "translation": "hier"
+      },
+      {
+        "character": "上午",
+        "pinyin": "shàngwǔ",
+        "translation": "matin"
+      },
+      {
+        "character": "中午",
+        "pinyin": "zhōngwǔ",
+        "translation": "midi"
+      },
+      {
+        "character": "下午",
+        "pinyin": "xiàwǔ",
+        "translation": "après-midi"
+      },
+      {
+        "character": "年",
+        "pinyin": "nián",
+        "translation": "année"
+      },
+      {
+        "character": "月",
+        "pinyin": "yuè",
+        "translation": "mois"
+      },
+      {
+        "character": "号",
+        "pinyin": "hào",
+        "translation": "numéro, jour du mois"
+      },
+      {
+        "character": "星期",
+        "pinyin": "xīngqī",
+        "translation": "semaine"
+      },
+      {
+        "character": "点",
+        "pinyin": "diǎn",
+        "translation": "heure"
+      },
+      {
+        "character": "分钟",
+        "pinyin": "fēnzhōng",
+        "translation": "minute"
+      },
+      {
+        "character": "现在",
+        "pinyin": "xiànzài",
+        "translation": "maintenant"
+      },
+      {
+        "character": "时候",
+        "pinyin": "shíhou",
+        "translation": "moment"
+      },
+      {
+        "character": "爸爸",
+        "pinyin": "bàba",
+        "translation": "papa"
+      },
+      {
+        "character": "妈妈",
+        "pinyin": "māma",
+        "translation": "maman"
+      },
+      {
+        "character": "儿子",
+        "pinyin": "érzi",
+        "translation": "fils"
+      },
+      {
+        "character": "女儿",
+        "pinyin": "nǚ'ér",
+        "translation": "fille"
+      },
+      {
+        "character": "老师",
+        "pinyin": "lǎoshī",
+        "translation": "professeur"
+      },
+      {
+        "character": "学生",
+        "pinyin": "xuéshēng",
+        "translation": "étudiant"
+      },
+      {
+        "character": "同学",
+        "pinyin": "tóngxué",
+        "translation": "camarade de classe"
+      },
+      {
+        "character": "朋友",
+        "pinyin": "péngyǒu",
+        "translation": "ami"
+      },
+      {
+        "character": "医生",
+        "pinyin": "yīshēng",
+        "translation": "médecin"
+      },
+      {
+        "character": "先生",
+        "pinyin": "xiānsheng",
+        "translation": "monsieur"
+      },
+      {
+        "character": "小姐",
+        "pinyin": "xiǎojiě",
+        "translation": "mademoiselle"
+      },
+      {
+        "character": "衣服",
+        "pinyin": "yīfu",
+        "translation": "vêtements"
+      },
+      {
+        "character": "水",
+        "pinyin": "shuǐ",
+        "translation": "eau"
+      },
+      {
+        "character": "菜",
+        "pinyin": "cài",
+        "translation": "plat, légume"
+      },
+      {
+        "character": "米饭",
+        "pinyin": "mǐfàn",
+        "translation": "riz cuit"
+      },
+      {
+        "character": "水果",
+        "pinyin": "shuǐguǒ",
+        "translation": "fruit"
+      },
+      {
+        "character": "苹果",
+        "pinyin": "píngguǒ",
+        "translation": "pomme"
+      },
+      {
+        "character": "茶",
+        "pinyin": "chá",
+        "translation": "thé"
+      },
+      {
+        "character": "杯子",
+        "pinyin": "bēizi",
+        "translation": "tasse, verre"
+      },
+      {
+        "character": "钱",
+        "pinyin": "qián",
+        "translation": "argent"
+      },
+      {
+        "character": "飞机",
+        "pinyin": "fēijī",
+        "translation": "avion"
+      },
+      {
+        "character": "出租车",
+        "pinyin": "chūzūchē",
+        "translation": "taxi"
+      },
+      {
+        "character": "电视",
+        "pinyin": "diànshì",
+        "translation": "télévision"
+      },
+      {
+        "character": "电脑",
+        "pinyin": "diànnǎo",
+        "translation": "ordinateur"
+      },
+      {
+        "character": "电影",
+        "pinyin": "diànyǐng",
+        "translation": "film"
+      },
+      {
+        "character": "天气",
+        "pinyin": "tiānqì",
+        "translation": "temps (météo)"
+      },
+      {
+        "character": "猫",
+        "pinyin": "māo",
+        "translation": "chat"
+      },
+      {
+        "character": "狗",
+        "pinyin": "gǒu",
+        "translation": "chien"
+      },
+      {
+        "character": "东西",
+        "pinyin": "dōngxi",
+        "translation": "chose"
+      },
+      {
+        "character": "人",
+        "pinyin": "rén",
+        "translation": "personne"
+      },
+      {
+        "character": "名字",
+        "pinyin": "míngzi",
+        "translation": "nom"
+      },
+      {
+        "character": "书",
+        "pinyin": "shū",
+        "translation": "livre"
+      },
+      {
+        "character": "汉语",
+        "pinyin": "Hànyǔ",
+        "translation": "chinois (langue)"
+      },
+      {
+        "character": "字",
+        "pinyin": "zì",
+        "translation": "caractère"
+      },
+      {
+        "character": "桌子",
+        "pinyin": "zhuōzi",
+        "translation": "table"
+      },
+      {
+        "character": "椅子",
+        "pinyin": "yǐzi",
+        "translation": "chaise"
+      },
+      {
+        "character": "谢谢",
+        "pinyin": "xièxie",
+        "translation": "merci"
+      },
+      {
+        "character": "不客气",
+        "pinyin": "búkèqì",
+        "translation": "de rien"
+      },
+      {
+        "character": "再见",
+        "pinyin": "zàijiàn",
+        "translation": "au revoir"
+      },
+      {
+        "character": "请",
+        "pinyin": "qǐng",
+        "translation": "s'il vous plaît"
+      },
+      {
+        "character": "对不起",
+        "pinyin": "duìbuqǐ",
+        "translation": "désolé"
+      },
+      {
+        "character": "没关系",
+        "pinyin": "méiguānxi",
+        "translation": "ce n'est rien"
+      },
+      {
+        "character": "是",
+        "pinyin": "shì",
+        "translation": "être"
+      },
+      {
+        "character": "有",
+        "pinyin": "yǒu",
+        "translation": "avoir"
+      },
+      {
+        "character": "看",
+        "pinyin": "kàn",
+        "translation": "regarder"
+      },
+      {
+        "character": "听",
+        "pinyin": "tīng",
+        "translation": "écouter"
+      },
+      {
+        "character": "说",
+        "pinyin": "shuō",
+        "translation": "parler"
+      },
+      {
+        "character": "读",
+        "pinyin": "dú",
+        "translation": "lire"
+      },
+      {
+        "character": "写",
+        "pinyin": "xiě",
+        "translation": "écrire"
+      },
+      {
+        "character": "看见",
+        "pinyin": "kànjiàn",
+        "translation": "voir"
+      },
+      {
+        "character": "叫",
+        "pinyin": "jiào",
+        "translation": "appeler"
+      },
+      {
+        "character": "来",
+        "pinyin": "lái",
+        "translation": "venir"
+      },
+      {
+        "character": "回",
+        "pinyin": "huí",
+        "translation": "retourner"
+      },
+      {
+        "character": "去",
+        "pinyin": "qù",
+        "translation": "aller"
+      },
+      {
+        "character": "吃",
+        "pinyin": "chī",
+        "translation": "manger"
+      },
+      {
+        "character": "喝",
+        "pinyin": "hē",
+        "translation": "boire"
+      },
+      {
+        "character": "睡觉",
+        "pinyin": "shuìjiào",
+        "translation": "dormir"
+      },
+      {
+        "character": "打电话",
+        "pinyin": "dǎ diànhuà",
+        "translation": "téléphoner"
+      },
+      {
+        "character": "做",
+        "pinyin": "zuò",
+        "translation": "faire"
+      },
+      {
+        "character": "买",
+        "pinyin": "mǎi",
+        "translation": "acheter"
+      },
+      {
+        "character": "开",
+        "pinyin": "kāi",
+        "translation": "ouvrir"
+      },
+      {
+        "character": "坐",
+        "pinyin": "zuò",
+        "translation": "s'asseoir"
+      },
+      {
+        "character": "住",
+        "pinyin": "zhù",
+        "translation": "habiter"
+      },
+      {
+        "character": "学习",
+        "pinyin": "xuéxí",
+        "translation": "étudier"
+      },
+      {
+        "character": "工作",
+        "pinyin": "gōngzuò",
+        "translation": "travailler"
+      },
+      {
+        "character": "下雨",
+        "pinyin": "xià yǔ",
+        "translation": "pleuvoir"
+      },
+      {
+        "character": "爱",
+        "pinyin": "ài",
+        "translation": "aimer (amour)"
+      },
+      {
+        "character": "喜欢",
+        "pinyin": "xǐhuan",
+        "translation": "aimer (préférer)"
+      },
+      {
+        "character": "想",
+        "pinyin": "xiǎng",
+        "translation": "penser, vouloir"
+      },
+      {
+        "character": "认识",
+        "pinyin": "rènshi",
+        "translation": "connaître"
+      },
+      {
+        "character": "会",
+        "pinyin": "huì",
+        "translation": "savoir (pouvoir)"
+      },
+      {
+        "character": "能",
+        "pinyin": "néng",
+        "translation": "pouvoir"
+      },
+      {
+        "character": "好",
+        "pinyin": "hǎo",
+        "translation": "bon, bien"
+      },
+      {
+        "character": "大",
+        "pinyin": "dà",
+        "translation": "grand"
+      },
+      {
+        "character": "小",
+        "pinyin": "xiǎo",
+        "translation": "petit"
+      },
+      {
+        "character": "多",
+        "pinyin": "duō",
+        "translation": "beaucoup"
+      },
+      {
+        "character": "少",
+        "pinyin": "shǎo",
+        "translation": "peu"
+      },
+      {
+        "character": "冷",
+        "pinyin": "lěng",
+        "translation": "froid"
+      },
+      {
+        "character": "热",
+        "pinyin": "rè",
+        "translation": "chaud"
+      },
+      {
+        "character": "高兴",
+        "pinyin": "gāoxìng",
+        "translation": "content"
+      },
+      {
+        "character": "漂亮",
+        "pinyin": "piàoliang",
+        "translation": "beau/belle"
+      }
+    ],
+    "sentences": [
+      {
+        "character": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "translation": "Bonjour !"
+      },
+      {
+        "character": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "translation": "Comment vas-tu ?"
+      },
+      {
+        "character": "我叫小明。",
+        "pinyin": "Wǒ jiào Xiǎo Míng.",
+        "translation": "Je m'appelle Xiaoming."
+      },
+      {
+        "character": "我是法国人。",
+        "pinyin": "Wǒ shì Fǎguó rén.",
+        "translation": "Je suis français."
+      },
+      {
+        "character": "谢谢！",
+        "pinyin": "Xièxie!",
+        "translation": "Merci !"
+      },
+      {
+        "character": "不客气。",
+        "pinyin": "Bú kèqì.",
+        "translation": "De rien."
+      },
+      {
+        "character": "再见！",
+        "pinyin": "Zàijiàn!",
+        "translation": "Au revoir !"
+      },
+      {
+        "character": "对不起。",
+        "pinyin": "Duìbuqǐ.",
+        "translation": "Désolé."
+      },
+      {
+        "character": "没关系。",
+        "pinyin": "Méi guānxi.",
+        "translation": "Ce n'est rien."
+      },
+      {
+        "character": "这是什么？",
+        "pinyin": "Zhè shì shénme?",
+        "translation": "Qu'est-ce que c'est ?"
+      },
+      {
+        "character": "那是什么？",
+        "pinyin": "Nà shì shénme?",
+        "translation": "Qu'est-ce que c'est ? (là-bas)"
+      },
+      {
+        "character": "我去学校。",
+        "pinyin": "Wǒ qù xuéxiào.",
+        "translation": "Je vais à l'école."
+      },
+      {
+        "character": "我在家。",
+        "pinyin": "Wǒ zài jiā.",
+        "translation": "Je suis à la maison."
+      },
+      {
+        "character": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "translation": "Le temps est très beau aujourd'hui."
+      },
+      {
+        "character": "我喜欢中国。",
+        "pinyin": "Wǒ xǐhuan Zhōngguó.",
+        "translation": "J'aime la Chine."
+      },
+      {
+        "character": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "translation": "Comment tu t'appelles ?"
+      },
+      {
+        "character": "他是我朋友。",
+        "pinyin": "Tā shì wǒ péngyǒu.",
+        "translation": "Il est mon ami."
+      },
+      {
+        "character": "她是老师。",
+        "pinyin": "Tā shì lǎoshī.",
+        "translation": "Elle est professeur."
+      },
+      {
+        "character": "我喝水。",
+        "pinyin": "Wǒ hē shuǐ.",
+        "translation": "Je bois de l'eau."
+      },
+      {
+        "character": "我吃饭。",
+        "pinyin": "Wǒ chī fàn.",
+        "translation": "Je mange."
+      }
+    ]
+  },
+  "hsk2": {
+    "name": "HSK 2",
+    "description": "Niveau élémentaire - 150 mots",
+    "characters": [
+      {
+        "character": "您",
+        "pinyin": "nín",
+        "translation": "vous (poli)"
+      },
+      {
+        "character": "它",
+        "pinyin": "tā",
+        "translation": "il/elle (pour animaux, choses)"
+      },
+      {
+        "character": "大家",
+        "pinyin": "dàjiā",
+        "translation": "tout le monde"
+      },
+      {
+        "character": "每",
+        "pinyin": "měi",
+        "translation": "chaque"
+      },
+      {
+        "character": "为什么",
+        "pinyin": "wèishénme",
+        "translation": "pourquoi"
+      },
+      {
+        "character": "零",
+        "pinyin": "líng",
+        "translation": "zéro"
+      },
+      {
+        "character": "两",
+        "pinyin": "liǎng",
+        "translation": "deux (pour les objets)"
+      },
+      {
+        "character": "百",
+        "pinyin": "bǎi",
+        "translation": "cent"
+      },
+      {
+        "character": "千",
+        "pinyin": "qiān",
+        "translation": "mille"
+      },
+      {
+        "character": "第一",
+        "pinyin": "dìyī",
+        "translation": "premier"
+      },
+      {
+        "character": "次",
+        "pinyin": "cì",
+        "translation": "fois"
+      },
+      {
+        "character": "件",
+        "pinyin": "jiàn",
+        "translation": "pièce (vêtement)"
+      },
+      {
+        "character": "别",
+        "pinyin": "bié",
+        "translation": "ne pas"
+      },
+      {
+        "character": "非常",
+        "pinyin": "fēicháng",
+        "translation": "très, extrêmement"
+      },
+      {
+        "character": "也",
+        "pinyin": "yě",
+        "translation": "aussi"
+      },
+      {
+        "character": "还",
+        "pinyin": "hái",
+        "translation": "encore"
+      },
+      {
+        "character": "最",
+        "pinyin": "zuì",
+        "translation": "le plus"
+      },
+      {
+        "character": "真",
+        "pinyin": "zhēn",
+        "translation": "vraiment"
+      },
+      {
+        "character": "正在",
+        "pinyin": "zhèngzài",
+        "translation": "être en train de"
+      },
+      {
+        "character": "已经",
+        "pinyin": "yǐjīng",
+        "translation": "déjà"
+      },
+      {
+        "character": "一起",
+        "pinyin": "yìqǐ",
+        "translation": "ensemble"
+      },
+      {
+        "character": "再",
+        "pinyin": "zài",
+        "translation": "encore, de nouveau"
+      },
+      {
+        "character": "就",
+        "pinyin": "jiù",
+        "translation": "juste, alors"
+      },
+      {
+        "character": "因为",
+        "pinyin": "yīnwèi",
+        "translation": "parce que"
+      },
+      {
+        "character": "所以",
+        "pinyin": "suǒyǐ",
+        "translation": "donc"
+      },
+      {
+        "character": "虽然",
+        "pinyin": "suīrán",
+        "translation": "bien que"
+      },
+      {
+        "character": "但是",
+        "pinyin": "dànshì",
+        "translation": "mais"
+      },
+      {
+        "character": "从",
+        "pinyin": "cóng",
+        "translation": "de, depuis"
+      },
+      {
+        "character": "比",
+        "pinyin": "bǐ",
+        "translation": "comparer"
+      },
+      {
+        "character": "往",
+        "pinyin": "wǎng",
+        "translation": "vers"
+      },
+      {
+        "character": "离",
+        "pinyin": "lí",
+        "translation": "être distant de"
+      },
+      {
+        "character": "得",
+        "pinyin": "de",
+        "translation": "(particule)"
+      },
+      {
+        "character": "着",
+        "pinyin": "zhe",
+        "translation": "(particule)"
+      },
+      {
+        "character": "过",
+        "pinyin": "guò",
+        "translation": "(particle d'expérience)"
+      },
+      {
+        "character": "吧",
+        "pinyin": "ba",
+        "translation": "(particule)"
+      },
+      {
+        "character": "机场",
+        "pinyin": "jīchǎng",
+        "translation": "aéroport"
+      },
+      {
+        "character": "教室",
+        "pinyin": "jiàoshì",
+        "translation": "salle de classe"
+      },
+      {
+        "character": "房间",
+        "pinyin": "fángjiān",
+        "translation": "chambre"
+      },
+      {
+        "character": "路",
+        "pinyin": "lù",
+        "translation": "route"
+      },
+      {
+        "character": "左边",
+        "pinyin": "zuǒbiān",
+        "translation": "côté gauche"
+      },
+      {
+        "character": "右边",
+        "pinyin": "yòubiān",
+        "translation": "côté droit"
+      },
+      {
+        "character": "外",
+        "pinyin": "wài",
+        "translation": "extérieur"
+      },
+      {
+        "character": "旁边",
+        "pinyin": "pángbiān",
+        "translation": "à côté"
+      },
+      {
+        "character": "一下",
+        "pinyin": "yīxià",
+        "translation": "un moment"
+      },
+      {
+        "character": "早上",
+        "pinyin": "zǎoshang",
+        "translation": "matin"
+      },
+      {
+        "character": "晚上",
+        "pinyin": "wǎnshang",
+        "translation": "soir, nuit"
+      },
+      {
+        "character": "小时",
+        "pinyin": "xiǎoshí",
+        "translation": "heure"
+      },
+      {
+        "character": "时间",
+        "pinyin": "shíjiān",
+        "translation": "temps"
+      },
+      {
+        "character": "去年",
+        "pinyin": "qùnián",
+        "translation": "l'année dernière"
+      },
+      {
+        "character": "日",
+        "pinyin": "rì",
+        "translation": "jour, soleil"
+      },
+      {
+        "character": "生日",
+        "pinyin": "shēngrì",
+        "translation": "anniversaire"
+      },
+      {
+        "character": "哥哥",
+        "pinyin": "gēge",
+        "translation": "grand frère"
+      },
+      {
+        "character": "姐姐",
+        "pinyin": "jiějie",
+        "translation": "grande sœur"
+      },
+      {
+        "character": "弟弟",
+        "pinyin": "dìdi",
+        "translation": "petit frère"
+      },
+      {
+        "character": "妹妹",
+        "pinyin": "mèimei",
+        "translation": "petite sœur"
+      },
+      {
+        "character": "丈夫",
+        "pinyin": "zhàngfu",
+        "translation": "mari"
+      },
+      {
+        "character": "妻子",
+        "pinyin": "qīzi",
+        "translation": "femme (épouse)"
+      },
+      {
+        "character": "孩子",
+        "pinyin": "háizi",
+        "translation": "enfant"
+      },
+      {
+        "character": "男人",
+        "pinyin": "nánrén",
+        "translation": "homme"
+      },
+      {
+        "character": "女人",
+        "pinyin": "nǚrén",
+        "translation": "femme"
+      },
+      {
+        "character": "服务员",
+        "pinyin": "fúwùyuán",
+        "translation": "serveur"
+      },
+      {
+        "character": "鱼",
+        "pinyin": "yú",
+        "translation": "poisson"
+      },
+      {
+        "character": "羊肉",
+        "pinyin": "yángròu",
+        "translation": "agneau"
+      },
+      {
+        "character": "牛奶",
+        "pinyin": "niúnǎi",
+        "translation": "lait"
+      },
+      {
+        "character": "鸡蛋",
+        "pinyin": "jīdàn",
+        "translation": "œuf"
+      },
+      {
+        "character": "西瓜",
+        "pinyin": "xīguā",
+        "translation": "pastèque"
+      },
+      {
+        "character": "咖啡",
+        "pinyin": "kāfēi",
+        "translation": "café"
+      },
+      {
+        "character": "雪",
+        "pinyin": "xuě",
+        "translation": "neige"
+      },
+      {
+        "character": "药",
+        "pinyin": "yào",
+        "translation": "médicament"
+      },
+      {
+        "character": "手机",
+        "pinyin": "shǒujī",
+        "translation": "téléphone portable"
+      },
+      {
+        "character": "手表",
+        "pinyin": "shǒubiǎo",
+        "translation": "montre"
+      },
+      {
+        "character": "眼睛",
+        "pinyin": "yǎnjīng",
+        "translation": "yeux"
+      },
+      {
+        "character": "身体",
+        "pinyin": "shēntǐ",
+        "translation": "corps"
+      },
+      {
+        "character": "公共汽车",
+        "pinyin": "gōnggòng qìchē",
+        "translation": "bus"
+      },
+      {
+        "character": "报纸",
+        "pinyin": "bàozhǐ",
+        "translation": "journal"
+      },
+      {
+        "character": "门",
+        "pinyin": "mén",
+        "translation": "porte"
+      },
+      {
+        "character": "题",
+        "pinyin": "tí",
+        "translation": "question, problème"
+      },
+      {
+        "character": "课",
+        "pinyin": "kè",
+        "translation": "cours, leçon"
+      },
+      {
+        "character": "姓",
+        "pinyin": "xìng",
+        "translation": "nom de famille"
+      },
+      {
+        "character": "问题",
+        "pinyin": "wèntí",
+        "translation": "question, problème"
+      },
+      {
+        "character": "事情",
+        "pinyin": "shìqing",
+        "translation": "affaire, chose"
+      },
+      {
+        "character": "考试",
+        "pinyin": "kǎoshì",
+        "translation": "examen"
+      },
+      {
+        "character": "票",
+        "pinyin": "piào",
+        "translation": "billet"
+      },
+      {
+        "character": "意思",
+        "pinyin": "yìsi",
+        "translation": "signification"
+      },
+      {
+        "character": "颜色",
+        "pinyin": "yánsè",
+        "translation": "couleur"
+      },
+      {
+        "character": "铅笔",
+        "pinyin": "qiānbǐ",
+        "translation": "crayon"
+      },
+      {
+        "character": "面条",
+        "pinyin": "miàntiáo",
+        "translation": "nouilles"
+      },
+      {
+        "character": "火车站",
+        "pinyin": "huǒchē zhàn",
+        "translation": "gare"
+      },
+      {
+        "character": "公司",
+        "pinyin": "gōngsī",
+        "translation": "entreprise"
+      },
+      {
+        "character": "宾馆",
+        "pinyin": "bīnguǎn",
+        "translation": "hôtel"
+      },
+      {
+        "character": "说话",
+        "pinyin": "shuōhuà",
+        "translation": "parler"
+      },
+      {
+        "character": "卖",
+        "pinyin": "mài",
+        "translation": "vendre"
+      },
+      {
+        "character": "问",
+        "pinyin": "wèn",
+        "translation": "demander"
+      },
+      {
+        "character": "走",
+        "pinyin": "zǒu",
+        "translation": "marcher"
+      },
+      {
+        "character": "进",
+        "pinyin": "jìn",
+        "translation": "entrer"
+      },
+      {
+        "character": "出",
+        "pinyin": "chū",
+        "translation": "sortir"
+      },
+      {
+        "character": "跑步",
+        "pinyin": "pǎobù",
+        "translation": "courir"
+      },
+      {
+        "character": "到",
+        "pinyin": "dào",
+        "translation": "arriver"
+      },
+      {
+        "character": "穿",
+        "pinyin": "chuān",
+        "translation": "porter (vêtements)"
+      },
+      {
+        "character": "洗",
+        "pinyin": "xǐ",
+        "translation": "laver"
+      },
+      {
+        "character": "给",
+        "pinyin": "gěi",
+        "translation": "donner"
+      },
+      {
+        "character": "找",
+        "pinyin": "zhǎo",
+        "translation": "chercher"
+      },
+      {
+        "character": "懂",
+        "pinyin": "dǒng",
+        "translation": "comprendre"
+      },
+      {
+        "character": "笑",
+        "pinyin": "xiào",
+        "translation": "rire"
+      },
+      {
+        "character": "告诉",
+        "pinyin": "gàosu",
+        "translation": "dire, informer"
+      },
+      {
+        "character": "准备",
+        "pinyin": "zhǔnbèi",
+        "translation": "préparer"
+      },
+      {
+        "character": "开始",
+        "pinyin": "kāishǐ",
+        "translation": "commencer"
+      },
+      {
+        "character": "介绍",
+        "pinyin": "jièshào",
+        "translation": "présenter"
+      },
+      {
+        "character": "帮助",
+        "pinyin": "bāngzhù",
+        "translation": "aider"
+      },
+      {
+        "character": "玩",
+        "pinyin": "wán",
+        "translation": "jouer"
+      },
+      {
+        "character": "送",
+        "pinyin": "sòng",
+        "translation": "offrir, accompagner"
+      },
+      {
+        "character": "等",
+        "pinyin": "děng",
+        "translation": "attendre"
+      },
+      {
+        "character": "让",
+        "pinyin": "ràng",
+        "translation": "laisser, permettre"
+      },
+      {
+        "character": "起床",
+        "pinyin": "qǐchuáng",
+        "translation": "se lever"
+      },
+      {
+        "character": "唱歌",
+        "pinyin": "chànggē",
+        "translation": "chanter"
+      },
+      {
+        "character": "跳舞",
+        "pinyin": "tiàowǔ",
+        "translation": "danser"
+      },
+      {
+        "character": "旅游",
+        "pinyin": "lǚyóu",
+        "translation": "voyager"
+      },
+      {
+        "character": "上班",
+        "pinyin": "shàngbān",
+        "translation": "aller au travail"
+      },
+      {
+        "character": "生病",
+        "pinyin": "shēngbìng",
+        "translation": "tomber malade"
+      },
+      {
+        "character": "休息",
+        "pinyin": "xiūxi",
+        "translation": "se reposer"
+      },
+      {
+        "character": "运动",
+        "pinyin": "yùndòng",
+        "translation": "faire du sport"
+      },
+      {
+        "character": "游泳",
+        "pinyin": "yóuyǒng",
+        "translation": "nager"
+      },
+      {
+        "character": "踢足球",
+        "pinyin": "tī zúqiú",
+        "translation": "jouer au football"
+      },
+      {
+        "character": "打篮球",
+        "pinyin": "dǎ lánqiú",
+        "translation": "jouer au basketball"
+      },
+      {
+        "character": "完",
+        "pinyin": "wán",
+        "translation": "finir"
+      },
+      {
+        "character": "觉得",
+        "pinyin": "juéde",
+        "translation": "penser, trouver"
+      },
+      {
+        "character": "知道",
+        "pinyin": "zhīdao",
+        "translation": "savoir"
+      },
+      {
+        "character": "希望",
+        "pinyin": "xīwàng",
+        "translation": "espérer"
+      },
+      {
+        "character": "可以",
+        "pinyin": "kěyǐ",
+        "translation": "pouvoir"
+      },
+      {
+        "character": "要",
+        "pinyin": "yào",
+        "translation": "vouloir"
+      },
+      {
+        "character": "可能",
+        "pinyin": "kěnéng",
+        "translation": "possible"
+      },
+      {
+        "character": "高",
+        "pinyin": "gāo",
+        "translation": "grand, haut"
+      },
+      {
+        "character": "红",
+        "pinyin": "hóng",
+        "translation": "rouge"
+      },
+      {
+        "character": "白",
+        "pinyin": "bái",
+        "translation": "blanc"
+      },
+      {
+        "character": "黑",
+        "pinyin": "hēi",
+        "translation": "noir"
+      },
+      {
+        "character": "忙",
+        "pinyin": "máng",
+        "translation": "occupé"
+      },
+      {
+        "character": "快",
+        "pinyin": "kuài",
+        "translation": "rapide"
+      },
+      {
+        "character": "慢",
+        "pinyin": "màn",
+        "translation": "lent"
+      },
+      {
+        "character": "远",
+        "pinyin": "yuǎn",
+        "translation": "loin"
+      },
+      {
+        "character": "近",
+        "pinyin": "jìn",
+        "translation": "proche"
+      },
+      {
+        "character": "好吃",
+        "pinyin": "hǎochī",
+        "translation": "délicieux"
+      },
+      {
+        "character": "累",
+        "pinyin": "lèi",
+        "translation": "fatigué"
+      },
+      {
+        "character": "长",
+        "pinyin": "cháng",
+        "translation": "long"
+      },
+      {
+        "character": "新",
+        "pinyin": "xīn",
+        "translation": "nouveau"
+      },
+      {
+        "character": "贵",
+        "pinyin": "guì",
+        "translation": "cher"
+      },
+      {
+        "character": "便宜",
+        "pinyin": "piányi",
+        "translation": "bon marché"
+      },
+      {
+        "character": "晴",
+        "pinyin": "qíng",
+        "translation": "ensoleillé"
+      },
+      {
+        "character": "阴",
+        "pinyin": "yīn",
+        "translation": "nuageux"
+      },
+      {
+        "character": "错",
+        "pinyin": "cuò",
+        "translation": "faux"
+      },
+      {
+        "character": "快乐",
+        "pinyin": "kuàilè",
+        "translation": "heureux"
+      },
+      {
+        "character": "对",
+        "pinyin": "duì",
+        "translation": "correct"
+      },
+      {
+        "character": "啊",
+        "pinyin": "a",
+        "translation": "ah"
+      }
+    ],
+    "sentences": [
+      {
+        "character": "您在做什么？",
+        "pinyin": "Nín zài zuò shénme?",
+        "translation": "Que faites-vous ?"
+      },
+      {
+        "character": "我非常高兴。",
+        "pinyin": "Wǒ fēicháng gāoxìng.",
+        "translation": "Je suis très content."
+      },
+      {
+        "character": "我们一起学习吧。",
+        "pinyin": "Wǒmen yīqǐ xuéxí ba.",
+        "translation": "Étudions ensemble."
+      },
+      {
+        "character": "他已经回家了。",
+        "pinyin": "Tā yǐjīng huí jiā le.",
+        "translation": "Il est déjà rentré à la maison."
+      },
+      {
+        "character": "昨天天气很好。",
+        "pinyin": "Zuótiān tiānqì hěn hǎo.",
+        "translation": "Le temps était très beau hier."
+      },
+      {
+        "character": "明天我要去公司。",
+        "pinyin": "Míngtiān wǒ yào qù gōngsī.",
+        "translation": "Demain je veux aller à l'entreprise."
+      },
+      {
+        "character": "你会说汉语吗？",
+        "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+        "translation": "Sais-tu parler chinois ?"
+      },
+      {
+        "character": "我喜欢吃中国菜。",
+        "pinyin": "Wǒ xǐhuan chī Zhōngguó cài.",
+        "translation": "J'aime manger la cuisine chinoise."
+      },
+      {
+        "character": "他在房间里看书。",
+        "pinyin": "Tā zài fángjiān lǐ kàn shū.",
+        "translation": "Il lit un livre dans la chambre."
+      },
+      {
+        "character": "我们去火车站吧。",
+        "pinyin": "Wǒmen qù huǒchē zhàn ba.",
+        "translation": "Allons à la gare."
+      },
+      {
+        "character": "这个问题很难。",
+        "pinyin": "Zhège wèntí hěn nán.",
+        "translation": "Cette question est très difficile."
+      },
+      {
+        "character": "我想喝一杯咖啡。",
+        "pinyin": "Wǒ xiǎng hē yī bēi kāfēi.",
+        "translation": "Je veux boire un café."
+      },
+      {
+        "character": "他每天跑步。",
+        "pinyin": "Tā měitiān pǎobù.",
+        "translation": "Il court tous les jours."
+      },
+      {
+        "character": "我的朋友喜欢旅游。",
+        "pinyin": "Wǒ de péngyǒu xǐhuan lǚyóu.",
+        "translation": "Mon ami aime voyager."
+      },
+      {
+        "character": "今天我很忙。",
+        "pinyin": "Jīntiān wǒ hěn máng.",
+        "translation": "Aujourd'hui je suis très occupé."
+      },
+      {
+        "character": "她的衣服很漂亮。",
+        "pinyin": "Tā de yīfu hěn piàoliang.",
+        "translation": "Ses vêtements sont très beaux."
+      },
+      {
+        "character": "我不知道他的电话。",
+        "pinyin": "Wǒ bù zhīdao tā de diànhuà.",
+        "translation": "Je ne sais pas son numéro de téléphone."
+      },
+      {
+        "character": "我们可以一起吃饭吗？",
+        "pinyin": "Wǒmen kěyǐ yīqǐ chī fàn ma?",
+        "translation": "Pouvons-nous manger ensemble ?"
+      },
+      {
+        "character": "他正在准备考试。",
+        "pinyin": "Tā zhèngzài zhǔnbèi kǎoshì.",
+        "translation": "Il est en train de préparer l'examen."
+      },
+      {
+        "character": "周末我想休息。",
+        "pinyin": "Zhōumò wǒ xiǎng xiūxi.",
+        "translation": "Le week-end je veux me reposer."
+      }
+    ]
+  },
+  "hsk3": {
+    "name": "HSK 3",
+    "description": "Niveau intermédiaire - En cours d'apprentissage",
+    "characters": [
+      {
+        "character": "打算",
+        "pinyin": "dǎsuàn",
+        "translation": "avoir l'intention de, prévoir"
+      },
+      {
+        "character": "周末",
+        "pinyin": "zhōumò",
+        "translation": "week-end"
+      },
+      {
+        "character": "票",
+        "pinyin": "piào",
+        "translation": "billet, ticket"
+      },
+      {
+        "character": "跟",
+        "pinyin": "gēn",
+        "translation": "avec, suivre"
+      },
+      {
+        "character": "一直",
+        "pinyin": "yìzhí",
+        "translation": "toujours, continuellement"
+      },
+      {
+        "character": "作业",
+        "pinyin": "zuòyè",
+        "translation": "devoirs"
+      },
+      {
+        "character": "游戏",
+        "pinyin": "yóuxì",
+        "translation": "jeu"
+      },
+      {
+        "character": "着急",
+        "pinyin": "zháojí",
+        "translation": "être inquiet, pressé"
+      },
+      {
+        "character": "复习",
+        "pinyin": "fùxí",
+        "translation": "réviser"
+      },
+      {
+        "character": "南方",
+        "pinyin": "nánfāng",
+        "translation": "sud"
+      },
+      {
+        "character": "北方",
+        "pinyin": "běifāng",
+        "translation": "nord"
+      },
+      {
+        "character": "面包",
+        "pinyin": "miànbāo",
+        "translation": "pain"
+      },
+      {
+        "character": "带",
+        "pinyin": "dài",
+        "translation": "apporter, emmener"
+      },
+      {
+        "character": "地图",
+        "pinyin": "dìtú",
+        "translation": "carte géographique"
+      },
+      {
+        "character": "哭",
+        "pinyin": "kū",
+        "translation": "pleurer"
+      },
+      {
+        "character": "生气",
+        "pinyin": "shēngqì",
+        "translation": "se fâcher, être en colère"
+      },
+      {
+        "character": "阿姨",
+        "pinyin": "āyí",
+        "translation": "aunt"
+      },
+      {
+        "character": "安静",
+        "pinyin": "ānjìng",
+        "translation": "Be quiet"
+      },
+      {
+        "character": "把",
+        "pinyin": "bǎ",
+        "translation": "hold"
+      },
+      {
+        "character": "半",
+        "pinyin": "bàn",
+        "translation": "half"
+      }
+    ],
+    "sentences": [
+      {
+        "character": "我打算周末去北京。",
+        "pinyin": "wǒ dǎsuàn zhōumò qù běijīng.",
+        "translation": "Je prévois d'aller à Pékin ce week-end."
+      },
+      {
+        "character": "你打算什么时候复习？",
+        "pinyin": "nǐ dǎsuàn shénme shíhòu fùxí?",
+        "translation": "Quand prévois-tu de réviser ?"
+      },
+      {
+        "character": "周末我们去看电影吧。",
+        "pinyin": "zhōumò wǒmen qù kàn diànyǐng ba.",
+        "translation": "Allons voir un film ce week-end."
+      },
+      {
+        "character": "你周末有什么打算？",
+        "pinyin": "nǐ zhōumò yǒu shénme dǎsuàn?",
+        "translation": "Quels sont tes projets pour le week-end ?"
+      }
+    ]
+  }
+}

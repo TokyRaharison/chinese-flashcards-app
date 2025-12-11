@@ -1,0 +1,8 @@
+.stButton > button {
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+.stButton > button[kind="primary"] {
+    background-color: #1a5fb4;
+    color: white;
+}

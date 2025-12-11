@@ -1,0 +1,86 @@
+{
+  "hsk1": {
+    "name": "HSK 1",
+    "description": "Niveau débutant - 150 mots",
+    "characters": [
+      {"character": "我", "pinyin": "wǒ", "translation": "je, moi"},
+      {"character": "我们", "pinyin": "wǒmen", "translation": "nous"},
+      {"character": "你", "pinyin": "nǐ", "translation": "tu"},
+      {"character": "他", "pinyin": "tā", "translation": "il"},
+      {"character": "她", "pinyin": "tā", "translation": "elle"},
+      {"character": "这", "pinyin": "zhè", "translation": "ceci"},
+      {"character": "那", "pinyin": "nà", "translation": "cela"},
+      {"character": "谁", "pinyin": "shéi", "translation": "qui"},
+      {"character": "什么", "pinyin": "shénme", "translation": "quoi"},
+      {"character": "一", "pinyin": "yī", "translation": "un"},
+      {"character": "二", "pinyin": "èr", "translation": "deux"},
+      {"character": "三", "pinyin": "sān", "translation": "trois"},
+      {"character": "家", "pinyin": "jiā", "translation": "maison"},
+      {"character": "学校", "pinyin": "xuéxiào", "translation": "école"},
+      {"character": "水", "pinyin": "shuǐ", "translation": "eau"},
+      {"character": "谢谢", "pinyin": "xièxie", "translation": "merci"},
+      {"character": "再见", "pinyin": "zàijiàn", "translation": "au revoir"},
+      {"character": "是", "pinyin": "shì", "translation": "être"},
+      {"character": "不", "pinyin": "bù", "translation": "non"},
+      {"character": "人", "pinyin": "rén", "translation": "personne"}
+    ],
+    "sentences": [
+      {"character": "你好吗？", "pinyin": "nǐ hǎo ma?", "translation": "Comment vas-tu ?"},
+      {"character": "我叫小明。", "pinyin": "wǒ jiào xiǎo míng.", "translation": "Je m'appelle Xiaoming."},
+      {"character": "我是法国人。", "pinyin": "wǒ shì fǎ guó rén.", "translation": "Je suis français."},
+      {"character": "你好！", "pinyin": "nǐ hǎo!", "translation": "Bonjour !"}
+    ]
+  },
+  "hsk2": {
+    "name": "HSK 2",
+    "description": "Niveau élémentaire - 150 mots",
+    "characters": [
+      {"character": "您", "pinyin": "nín", "translation": "vous (poli)"},
+      {"character": "大家", "pinyin": "dàjiā", "translation": "tout le monde"},
+      {"character": "为什么", "pinyin": "wèishénme", "translation": "pourquoi"},
+      {"character": "非常", "pinyin": "fēicháng", "translation": "très"},
+      {"character": "也", "pinyin": "yě", "translation": "aussi"},
+      {"character": "正在", "pinyin": "zhèngzài", "translation": "en train de"},
+      {"character": "已经", "pinyin": "yǐjīng", "translation": "déjà"},
+      {"character": "早上", "pinyin": "zǎoshang", "translation": "matin"},
+      {"character": "晚上", "pinyin": "wǎnshang", "translation": "soir"},
+      {"character": "手机", "pinyin": "shǒujī", "translation": "téléphone portable"},
+      {"character": "电脑", "pinyin": "diànnǎo", "translation": "ordinateur"},
+      {"character": "喜欢", "pinyin": "xǐhuan", "translation": "aimer"}
+    ],
+    "sentences": [
+      {"character": "你在做什么？", "pinyin": "nǐ zài zuò shénme?", "translation": "Que fais-tu ?"},
+      {"character": "我很高兴。", "pinyin": "wǒ hěn gāoxìng.", "translation": "Je suis très content."},
+      {"character": "今天天气很好。", "pinyin": "jīntiān tiānqì hěn hǎo.", "translation": "Le temps est très beau aujourd'hui."},
+      {"character": "我现在学习中文。", "pinyin": "wǒ xiànzài xuéxí zhōngwén.", "translation": "J'étudie le chinois maintenant."}
+    ]
+  },
+  "hsk3": {
+    "name": "HSK 3",
+    "description": "Niveau intermédiaire - En cours d'apprentissage",
+    "characters": [
+      {"character": "打算", "pinyin": "dǎsuàn", "translation": "avoir l'intention de, prévoir"},
+      {"character": "周末", "pinyin": "zhōumò", "translation": "week-end"},
+      {"character": "票", "pinyin": "piào", "translation": "billet, ticket"},
+      {"character": "跟", "pinyin": "gēn", "translation": "avec, suivre"},
+      {"character": "一直", "pinyin": "yìzhí", "translation": "toujours, continuellement"},
+      {"character": "作业", "pinyin": "zuòyè", "translation": "devoirs"},
+      {"character": "游戏", "pinyin": "yóuxì", "translation": "jeu"},
+      {"character": "着急", "pinyin": "zháojí", "translation": "être inquiet, pressé"},
+      {"character": "复习", "pinyin": "fùxí", "translation": "réviser"},
+      {"character": "南方", "pinyin": "nánfāng", "translation": "sud"},
+      {"character": "北方", "pinyin": "běifāng", "translation": "nord"},
+      {"character": "面包", "pinyin": "miànbāo", "translation": "pain"},
+      {"character": "带", "pinyin": "dài", "translation": "apporter, emmener"},
+      {"character": "地图", "pinyin": "dìtú", "translation": "carte géographique"},
+      {"character": "哭", "pinyin": "kū", "translation": "pleurer"},
+      {"character": "生气", "pinyin": "shēngqì", "translation": "se fâcher, être en colère"}
+    ],
+    "sentences": [
+      {"character": "我打算周末去北京。", "pinyin": "wǒ dǎsuàn zhōumò qù běijīng.", "translation": "Je prévois d'aller à Pékin ce week-end."},
+      {"character": "你打算什么时候复习？", "pinyin": "nǐ dǎsuàn shénme shíhòu fùxí?", "translation": "Quand prévois-tu de réviser ?"},
+      {"character": "周末我们去看电影吧。", "pinyin": "zhōumò wǒmen qù kàn diànyǐng ba.", "translation": "Allons voir un film ce week-end."},
+      {"character": "你周末有什么打算？", "pinyin": "nǐ zhōumò yǒu shénme dǎsuàn?", "translation": "Quels sont tes projets pour le week-end ?"}
+    ]
+  }
+}
