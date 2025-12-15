@@ -432,112 +432,755 @@ HSK_COMPLETE_DATA = {
 }
 
 # ============================================================================
-# GRAMMAIRE HSK 3 COMPLÈTE
+# GRAMMAIRE HSK 3 COMPLÈTE - VERSION CORRIGÉE ET COMPLÈTE
 # ============================================================================
 HSK3_GRAMMAR = {
-    "name": "Grammaire HSK 3",
-    "description": "Tous les points de grammaire du niveau HSK 3 - 30+ structures",
+    "name": "Grammaire HSK 3 Complète",
+    "description": "Tous les points de grammaire du niveau HSK 3 avec exemples détaillés",
     "author": "RATOKIHARISON HERIVONJY",
     "lessons": [
+        # === LEÇON 1 ===
         {
             "id": "L1-1",
             "lesson": "HSK3-L1",
-            "title": "结果补语 '好' (Complément de résultat '好')",
+            "title": "结果补语'好' (Complément de résultat '好')",
             "structure": "V + 好",
             "example_ch": "我还没想好要不要跟你去呢。",
             "example_pinyin": "Wǒ hái méi xiǎng hǎo yào bu yào gēn nǐ qù ne.",
-            "example_fr": "Je ne sais pas encore si je veux aller avec toi.",
-            "explanation": "Le complément '好' après un verbe indique que l'action est bien faite ou complétée."
+            "example_fr": "Je n'ai pas encore décidé si je veux aller avec toi.",
+            "explanation": "Le complément '好' indique que l'action est bien faite ou terminée."
         },
         {
-            "id": "L1-2",
+            "id": "L1-2", 
+            "lesson": "HSK3-L1",
+            "title": "否定 totale avec '一...也/都' (Négation totale)",
+            "structure": "一 + M + N + 也/都 + 不/没 + V",
+            "example_ch": "我一个苹果也不吃。/ 我一个苹果也没吃。",
+            "example_pinyin": "Wǒ yí gè píngguǒ yě bù chī. / Wǒ yí gè píngguǒ yě méi chī.",
+            "example_fr": "Je ne mange pas une seule pomme. / Je n'ai mangé aucune pomme.",
+            "explanation": "Exprime une négation absolue. '不' pour les habitudes, '没' pour le passé."
+        },
+        {
+            "id": "L1-3",
+            "lesson": "HSK3-L1",
+            "title": "否定 avec '一点儿' (Négation avec '一点儿')",
+            "structure": "一点儿 + N + 也/都 + 不/没 + V",
+            "example_ch": "我一点儿东西也不吃。/ 我一点儿东西也没吃。",
+            "example_pinyin": "Wǒ yìdiǎnr dōngxi yě bù chī. / Wǒ yìdiǎnr dōngxi yě méi chī.",
+            "example_fr": "Je ne mange rien du tout. / Je n'ai rien mangé du tout.",
+            "explanation": "Exprime une négation complète, équivalent à 'rien du tout'."
+        },
+        {
+            "id": "L1-4",
+            "lesson": "HSK3-L1",
+            "title": "否定 d'adjectif avec '一点儿' (Négation d'adjectif)",
+            "structure": "一点儿也/都 + 不 + Adj",
+            "example_ch": "我一点儿也不着急。",
+            "example_pinyin": "Wǒ yìdiǎnr yě bù zháojí.",
+            "example_fr": "Je ne suis pas du tout pressé.",
+            "explanation": "Exprime une négation complète d'un état ou d'une qualité."
+        },
+        {
+            "id": "L1-5",
+            "lesson": "HSK3-L1", 
+            "title": "连词'那' (Conjonction '那')",
+            "structure": "A : phrase. B : 那 + phrase.",
+            "example_ch": "A：我不想去看电影。 B：那我也不去了。",
+            "example_pinyin": "A: Wǒ bù xiǎng qù kàn diànyǐng. B: Nà wǒ yě bú qù le.",
+            "example_fr": "A: Je ne veux pas aller au cinéma. B: Alors moi non plus je n'irai pas.",
+            "explanation": "'那' signifie 'alors', 'dans ce cas', utilisé pour exprimer une conséquence."
+        },
+        {
+            "id": "L1-6",
             "lesson": "HSK3-L1",
             "title": "简单趋向补语 (Complément directionnel simple)",
             "structure": "V + 来/去",
             "example_ch": "我们过去那边坐一下吧。",
             "example_pinyin": "Wǒmen guòqù nà biān zuò yíxià ba.",
             "example_fr": "Allons nous asseoir là-bas.",
-            "explanation": "'来' = vers le locuteur, '去' = loin du locuteur."
+            "explanation": "'来' = mouvement vers le locuteur, '去' = mouvement loin du locuteur."
         },
+        {
+            "id": "L1-7",
+            "lesson": "HSK3-L1",
+            "title": "V + 来/去 avec complément de lieu",
+            "structure": "V + O(lieu) + 来/去",
+            "example_ch": "我上楼去。",
+            "example_pinyin": "Wǒ shàng lóu qù.",
+            "example_fr": "Je monte à l'étage.",
+            "explanation": "Le complément de lieu précède '来/去'."
+        },
+        {
+            "id": "L1-8",
+            "lesson": "HSK3-L1",
+            "title": "V + 来/去 avec complément d'objet",
+            "structure": "V + O(chose) + 来/去  OU  V + 来/去 + O(chose)",
+            "example_ch": "明天要带你的作业来。/ 明天要带来你的作业。",
+            "example_pinyin": "Míngtiān yào dài nǐ de zuòyè lái. / Míngtiān yào dài lái nǐ de zuòyè.",
+            "example_fr": "Apporte tes devoirs demain.",
+            "explanation": "Deux positions possibles pour l'objet avec '来/去'."
+        },
+        
+        # === LEÇON 2 ===
         {
             "id": "L2-1",
             "lesson": "HSK3-L2",
-            "title": "两个动作连续发生 (Deux actions successives)",
-            "structure": "S + V1了…… + 就 V2……",
+            "title": "两个动作连续发生 (Actions successives)",
+            "structure": "S + V1了... + 就 V2...",
             "example_ch": "你每天晚上吃了饭就睡觉。",
             "example_pinyin": "Nǐ měitiān wǎnshàng chīle fàn jiù shuìjiào.",
-            "example_fr": "Tu vas dormir immédiatement après avoir mangé tous les soirs.",
+            "example_fr": "Tu vas dormir immédiatement après avoir mangé chaque soir.",
             "explanation": "Exprime qu'une action suit immédiatement une autre."
         },
         {
-            "id": "L3-1",
-            "lesson": "HSK3-L3",
-            "title": "'还是'和'或者' ('还是' et '或者')",
-            "structure": "A 还是 B？ (question)\nA 或者 B。 (affirmation)",
-            "example_ch": "明天是晴天还是阴天？\n今晚吃米饭或者面条都可以。",
-            "example_pinyin": "Míngtiān shì qíngtiān háishì yīntiān？\nJīnwǎn chī mǐfàn huòzhě miàntiáo dōu kěyǐ.",
-            "example_fr": "Demain il fera beau ou nuageux ?\nTu peux manger du riz ou des nouilles ce soir.",
-            "explanation": "'还是' pour les questions (choix), '或者' pour les affirmations (alternative)."
+            "id": "L2-2",
+            "lesson": "HSK3-L2",
+            "title": "Actions successives avec deux sujets",
+            "structure": "S1 + V1了... + S2 + 就 V2...",
+            "example_ch": "他到了办公室我就告诉他。",
+            "example_pinyin": "Tā dàole bàngōngshì wǒ jiù gàosu tā.",
+            "example_fr": "Je lui dirai dès qu'il arrivera au bureau.",
+            "explanation": "Quand deux actions ont des sujets différents."
         },
         {
-            "id": "L4-1",
-            "lesson": "HSK3-L4",
+            "id": "L2-3",
+            "lesson": "HSK3-L2",
+            "title": "反问句'能...吗?' (Phrase rhétorique)",
+            "structure": "能...吗？",
+            "example_ch": "你每天吃了就睡，能不胖吗？",
+            "example_pinyin": "Nǐ měitiān chīle jiù shuì, néng bú pàng ma?",
+            "example_fr": "Tu manges et tu dors immédiatement chaque jour, comment ne pas grossir ?",
+            "explanation": "Question rhétorique qui exprime une affirmation forte."
+        },
+        {
+            "id": "L2-4",
+            "lesson": "HSK3-L2",
+            "title": "'或者' pour les choix (Choix ouverts)",
+            "structure": "A 或者 B",
+            "example_ch": "今晚吃米饭或者面条都可以。",
+            "example_pinyin": "Jīnwǎn chī mǐfàn huòzhě miàntiáo dōu kěyǐ.",
+            "example_fr": "Tu peux manger du riz ou des nouilles ce soir.",
+            "explanation": "'或者' exprime un choix entre alternatives dans une phrase déclarative."
+        },
+        
+        # === LEÇON 3 ===
+        {
+            "id": "L3-1",
+            "lesson": "HSK3-L3",
+            "title": "'还是' pour les questions (Choix exclusifs)",
+            "structure": "A 还是 B？",
+            "example_ch": "明天是晴天还是阴天？",
+            "example_pinyin": "Míngtiān shì qíngtiān háishì yīntiān?",
+            "example_fr": "Demain il fera beau ou nuageux ?",
+            "explanation": "'还是' est utilisé dans les questions pour proposer des choix."
+        },
+        {
+            "id": "L3-2",
+            "lesson": "HSK3-L3",
+            "title": "'还是' avec incertitude",
+            "structure": "phrase + 还是 + phrase",
+            "example_ch": "我不知道这个人是男的还是女的。",
+            "example_pinyin": "Wǒ bù zhīdào zhège rén shì nán de háishì nǚ de.",
+            "example_fr": "Je ne sais pas si cette personne est un homme ou une femme.",
+            "explanation": "Exprime l'incertitude entre deux possibilités."
+        },
+        {
+            "id": "L3-3",
+            "lesson": "HSK3-L3",
             "title": "存在的表达 (Expression de l'existence)",
             "structure": "Lieu + (没) + V着 + NP",
             "example_ch": "桌子上(没)放着饮料。",
             "example_pinyin": "Zhuōzi shàng (méi) fàngzhe yǐnliào.",
-            "example_fr": "Il y a (pas) des boissons sur la table.",
-            "explanation": "Décrit l'existence ou la position de quelque chose avec '着'."
+            "example_fr": "Il y a (n'a pas) des boissons sur la table.",
+            "explanation": "Décrit ce qui existe ou se trouve à un endroit."
         },
         {
-            "id": "L5-1",
-            "lesson": "HSK3-L5",
+            "id": "L3-4",
+            "lesson": "HSK3-L3",
+            "title": "'会'表示可能 (Possibilité)",
+            "structure": "会 + V/Adj + (的)",
+            "example_ch": "喝杯热茶会很舒服。",
+            "example_pinyin": "Hē bēi rè chá huì hěn shūfu.",
+            "example_fr": "Boire une tasse de thé chaud sera très agréable.",
+            "explanation": "'会' exprime une possibilité ou une probabilité."
+        },
+        
+        # === LEÇON 4 ===
+        {
+            "id": "L4-1",
+            "lesson": "HSK3-L4",
+            "title": "'又...又...' (À la fois... et...)",
+            "structure": "又 + Adj1 + 又 + Adj2",
+            "example_ch": "她工作又热情又认真。",
+            "example_pinyin": "Tā gōngzuò yòu rèqíng yòu rènzhēn.",
+            "example_fr": "Elle travaille avec à la fois enthousiasme et sérieux.",
+            "explanation": "Exprime deux qualités simultanées."
+        },
+        {
+            "id": "L4-2",
+            "lesson": "HSK3-L4",
             "title": "动作的伴随 (Action accompagnée)",
             "structure": "V1着 + (O1) + V2 + (O2)",
             "example_ch": "她总是笑着跟客人说话。",
             "example_pinyin": "Tā zǒngshì xiàozhe gēn kèrén shuōhuà.",
             "example_fr": "Elle parle toujours aux clients en souriant.",
-            "explanation": "La première action (V1着) accompagne la seconde action."
+            "explanation": "La première action (avec 着) accompagne la seconde action."
         },
+        {
+            "id": "L4-3",
+            "lesson": "HSK3-L4",
+            "title": "'了'表示变化 ('了' pour exprimer un changement)",
+            "structure": "phrase + 了",
+            "example_ch": "这条裙子是去年买的，今年就不能穿了。",
+            "example_pinyin": "Zhè tiáo qúnzi shì qùnián mǎi de, jīnnián jiù bù néng chuān le.",
+            "example_fr": "J'ai acheté cette jupe l'année dernière, mais cette année je ne peux plus la porter.",
+            "explanation": "'了' en fin de phrase indique un changement d'état."
+        },
+        {
+            "id": "L4-4",
+            "lesson": "HSK3-L4",
+            "title": "'越来越...' (De plus en plus...)",
+            "structure": "越来越 + Adj/V mental + (了)",
+            "example_ch": "我做的饭越来越好吃了。",
+            "example_pinyin": "Wǒ zuò de fàn yuè lái yuè hǎo chī le.",
+            "example_fr": "Ma cuisine devient de plus en plus délicieuse.",
+            "explanation": "Exprime une progression graduelle dans le temps."
+        },
+        
+        # === LEÇON 5 ===
+        {
+            "id": "L5-1",
+            "lesson": "HSK3-L5",
+            "title": "可能补语 positif (Complément de possibilité positif)",
+            "structure": "V + 得 + complément de résultat/direction",
+            "example_ch": "我看得清楚那个汉字。",
+            "example_pinyin": "Wǒ kàn dé qīngchǔ nàge hànzì.",
+            "example_fr": "Je peux voir ce caractère clairement.",
+            "explanation": "Exprime la capacité de faire quelque chose."
+        },
+        {
+            "id": "L5-2",
+            "lesson": "HSK3-L5",
+            "title": "可能补语 négatif (Complément de possibilité négatif)",
+            "structure": "V + 不 + complément de résultat/direction",
+            "example_ch": "我上不去那个地方。",
+            "example_pinyin": "Wǒ shàng bú qù nàge dìfang.",
+            "example_fr": "Je ne peux pas monter à cet endroit.",
+            "explanation": "Exprime l'impossibilité de faire quelque chose."
+        },
+        
+        # === LEÇON 6 ===
         {
             "id": "L6-1",
             "lesson": "HSK3-L6",
-            "title": "可能补语 (Complément de possibilité)",
-            "structure": "V + 得/不 + complément",
-            "example_ch": "我看得清楚那个汉字。\n我上不去那个地方。",
-            "example_pinyin": "Wǒ kàn dé qīngchǔ nàgè hànzì。\nWǒ shàng bú qù nàgè dìfāng。",
-            "example_fr": "Je peux voir ce caractère clairement。\nJe ne peux pas monter à cet endroit。",
-            "explanation": "'得' = possibilité positive, '不' = impossibilité."
+            "title": "Question avec 可能补语 (Question avec complément de possibilité)",
+            "structure": "V + 不 + V + 得 + complément ?  OU  V + 得 + complément + V + 不 + complément ?",
+            "example_ch": "老师说的话你听不听得见？ / 老师说的话你听得见听不见？",
+            "example_pinyin": "Lǎoshī shuō de huà nǐ tīng bu tīng dé jiàn? / Lǎoshī shuō de huà nǐ tīng dé jiàn tīng bú jiàn?",
+            "example_fr": "Entends-tu ce que dit le professeur ?",
+            "explanation": "Deux formes de questions pour interroger sur la possibilité."
         },
+        {
+            "id": "L6-2",
+            "lesson": "HSK3-L6",
+            "title": "'呢'询问处所 ('呢' pour demander le lieu)",
+            "structure": "N + 呢？",
+            "example_ch": "我的眼镜呢？你看见了吗？",
+            "example_pinyin": "Wǒ de yǎnjìng ne? Nǐ kànjiàn le ma?",
+            "example_fr": "Où sont mes lunettes ? Les as-tu vues ?",
+            "explanation": "'呢' seul après un nom signifie 'où est...?'"
+        },
+        {
+            "id": "L6-3",
+            "lesson": "HSK3-L6",
+            "title": "'刚' pour une action récente",
+            "structure": "S + 刚 + V",
+            "example_ch": "儿子刚做完作业。",
+            "example_pinyin": "Érzi gāng zuò wán zuòyè.",
+            "example_fr": "Mon fils vient juste de finir ses devoirs.",
+            "explanation": "'刚' indique qu'une action vient de se terminer."
+        },
+        {
+            "id": "L6-4",
+            "lesson": "HSK3-L6",
+            "title": "'刚才' pour le passé immédiat",
+            "structure": "刚才 + S + V  OU  S + 刚才 + V",
+            "example_ch": "刚才儿子在做作业。",
+            "example_pinyin": "Gāngcái érzi zài zuò zuòyè.",
+            "example_fr": "Mon fils faisait ses devoirs tout à l'heure.",
+            "explanation": "'刚才' se réfère à un moment passé récent."
+        },
+        
+        # === LEÇON 7 ===
         {
             "id": "L7-1",
             "lesson": "HSK3-L7",
-            "title": "用'半''刻''差'表达时间 (Exprimer l'heure)",
-            "structure": "X点半 (X:30)\nX点一刻 (X:15)\n差X分Y点 (Y点差X分)",
-            "example_ch": "十点半\n十点一刻\n差十分钟八点！",
-            "example_pinyin": "Shí diǎn bàn\nShí diǎn yí kè\nChà shí fēnzhōng bā diǎn！",
-            "example_fr": "10h30\n10h15\nIl est dix heures moins huit！",
-            "explanation": "'半' = 30min, '刻' = 15min, '差' = moins (avant l'heure)."
+            "title": "Durée d'action complétée",
+            "structure": "S + V + 了 + DURÉE + O",
+            "example_ch": "我们唱了两个小时歌。",
+            "example_pinyin": "Wǒmen chàngle liǎng gè xiǎoshí gē.",
+            "example_fr": "Nous avons chanté pendant deux heures.",
+            "explanation": "Exprime la durée d'une action terminée."
         },
+        {
+            "id": "L7-2",
+            "lesson": "HSK3-L7",
+            "title": "Durée d'action en cours",
+            "structure": "S + V + 了 + DURÉE + O + 了",
+            "example_ch": "我们唱了两个小时歌了。",
+            "example_pinyin": "Wǒmen chàngle liǎng gè xiǎoshí gē le.",
+            "example_fr": "Nous chantons depuis deux heures.",
+            "explanation": "Exprime la durée d'une action qui continue."
+        },
+        {
+            "id": "L7-3",
+            "lesson": "HSK3-L7",
+            "title": "Expression du temps avec '半'",
+            "structure": "heure + 半",
+            "example_ch": "十点半",
+            "example_pinyin": "Shí diǎn bàn",
+            "example_fr": "10h30",
+            "explanation": "'半' signifie 'demi-heure'."
+        },
+        {
+            "id": "L7-4",
+            "lesson": "HSK3-L7",
+            "title": "Expression du temps avec '刻'",
+            "structure": "heure + 一刻",
+            "example_ch": "十点一刻",
+            "example_pinyin": "Shí diǎn yí kè",
+            "example_fr": "10h15",
+            "explanation": "'一刻' signifie 'quart d'heure'."
+        },
+        {
+            "id": "L7-5",
+            "lesson": "HSK3-L7",
+            "title": "Expression du temps avec '差'",
+            "structure": "差 + minutes + (钟) + heure + 了",
+            "example_ch": "差十分钟八点了！",
+            "example_pinyin": "Chà shí fēnzhōng bā diǎn le!",
+            "example_fr": "Il est dix heures moins huit !",
+            "explanation": "'差' exprime le temps restant avant l'heure."
+        },
+        {
+            "id": "L7-6",
+            "lesson": "HSK3-L7",
+            "title": "Expression d'intérêt (1)",
+            "structure": "对... (不)感兴趣",
+            "example_ch": "我对打篮球(不)感兴趣。",
+            "example_pinyin": "Wǒ duì dǎ lánqiú (bù) gǎn xìngqù.",
+            "example_fr": "Je (ne) suis (pas) intéressé par le basketball.",
+            "explanation": "Exprime l'intérêt ou le désintérêt pour quelque chose."
+        },
+        {
+            "id": "L7-7",
+            "lesson": "HSK3-L7",
+            "title": "Expression d'intérêt (2)",
+            "structure": "对... (没)有兴趣",
+            "example_ch": "我对打篮球(没)有兴趣。",
+            "example_pinyin": "Wǒ duì dǎ lánqiú (méi) yǒu xìngqù.",
+            "example_fr": "Je (n')ai (pas) d'intérêt pour le basketball.",
+            "explanation": "Autre façon d'exprimer l'intérêt."
+        },
+        
+        # === LEÇON 8 ===
         {
             "id": "L8-1",
             "lesson": "HSK3-L8",
-            "title": "'又'和'再' ('又' et '再')",
-            "structure": "又 + V (passé)\n再 + V (futur)",
-            "example_ch": "我昨天看了一个电影，今天又看一个。\n我今天看了一个电影，明天要再看一个。",
-            "example_pinyin": "Wǒ zuótiān kànle yí gè diànyǐng, jīntiān yòu kàn yí gè。\nWǒ jīntiān kànle yí gè diànyǐng, míngtiān yào zài kàn yí gè。",
-            "example_fr": "J'ai vu un film hier et j'en ai vu un autre aujourd'hui。\nJ'ai vu un film aujourd'hui et j'en verrai un autre demain。",
-            "explanation": "'又' = encore (action répétée dans le passé), '再' = encore (action future)."
+            "title": "'又' pour la répétition dans le passé",
+            "structure": "又 + V (passé)",
+            "example_ch": "我昨天看了一个电影，今天又看一个。",
+            "example_pinyin": "Wǒ zuótiān kànle yí gè diànyǐng, jīntiān yòu kàn yí gè.",
+            "example_fr": "J'ai vu un film hier, et j'en ai vu un autre aujourd'hui.",
+            "explanation": "'又' exprime la répétition d'une action dans le passé."
         },
+        {
+            "id": "L8-2",
+            "lesson": "HSK3-L8",
+            "title": "'再' pour la répétition dans le futur",
+            "structure": "再 + V (futur)",
+            "example_ch": "我今天看了一个电影，明天要再看一个。",
+            "example_pinyin": "Wǒ jīntiān kànle yí gè diànyǐng, míngtiān yào zài kàn yí gè.",
+            "example_fr": "J'ai vu un film aujourd'hui, et je vais en voir un autre demain.",
+            "explanation": "'再' exprime la répétition d'une action dans le futur."
+        },
+        {
+            "id": "L8-3",
+            "lesson": "HSK3-L8",
+            "title": "疑问代词活用 (1) (Utilisation indéfinie des pronoms interrogatifs)",
+            "structure": "S + Q + 就 + Q",
+            "example_ch": "你哪天有时间就哪天来我家吧。",
+            "example_pinyin": "Nǐ nǎ tiān yǒu shíjiān jiù nǎ tiān lái wǒ jiā ba.",
+            "example_fr": "Viens chez moi le jour où tu as du temps.",
+            "explanation": "Les pronoms interrogatifs utilisés indéfiniment."
+        },
+        {
+            "id": "L8-4",
+            "lesson": "HSK3-L8",
+            "title": "疑问代词活用 avec deux sujets",
+            "structure": "S1 + Q + S2 + 就 + Q",
+            "example_ch": "你坐哪儿我就坐哪儿。",
+            "example_pinyin": "Nǐ zuò nǎr wǒ jiù zuò nǎr.",
+            "example_fr": "Je m'assiérai là où tu t'assieds.",
+            "explanation": "Même structure avec deux sujets différents."
+        },
+        {
+            "id": "L8-5",
+            "lesson": "HSK3-L8",
+            "title": "Structure '越A越B'",
+            "structure": "越 A 越 B",
+            "example_ch": "山越高越难走。",
+            "example_pinyin": "Shān yuè gāo yuè nán zǒu.",
+            "example_fr": "Plus la montagne est haute, plus elle est difficile à gravir.",
+            "explanation": "Exprime une corrélation entre deux éléments."
+        },
+        
+        # === LEÇON 9 ===
         {
             "id": "L9-1",
             "lesson": "HSK3-L9",
-            "title": "比较句 (1) (Phrases de comparaison 1)",
-            "structure": "A 跟/和 B 一样 (+ adj)\nA 跟/和 B 不一样",
-            "example_ch": "她的汉语说得跟中国人一样好。\n这本书跟那本书不一样。",
-            "example_pinyin": "Tā de Hànyǔ shuō dé gēn Zhōngguó rén yíyàng hǎo。\nZhè běn shū gēn nà běn shū bù yíyàng。",
-            "example_fr": "Elle parle chinois aussi bien qu'un Chinois。\nCe livre est différent de ce livre-là。",
-            "explanation": "Comparaison d'égalité ('一样') ou de différence ('不一样')."
+            "title": "Comparaison d'égalité",
+            "structure": "A 跟/和 B 一样 (+ Adj)",
+            "example_ch": "她的汉语说得跟/和中国人一样好。",
+            "example_pinyin": "Tā de Hànyǔ shuō dé gēn/hé Zhōngguó rén yíyàng hǎo.",
+            "example_fr": "Elle parle chinois aussi bien qu'un Chinois.",
+            "explanation": "Comparaison d'égalité avec '一样'."
+        },
+        {
+            "id": "L9-2",
+            "lesson": "HSK3-L9",
+            "title": "Comparaison de différence",
+            "structure": "A 跟/和 B 不一样",
+            "example_ch": "这本书跟/和那本书不一样。",
+            "example_pinyin": "Zhè běn shū gēn/hé nà běn shū bù yíyàng.",
+            "example_fr": "Ce livre est différent de ce livre-là.",
+            "explanation": "Exprime la différence entre deux choses."
+        },
+        {
+            "id": "L9-3",
+            "lesson": "HSK3-L9",
+            "title": "Comparaison de supériorité avec '比'",
+            "structure": "A 比 B + Adj + (complément de degré)",
+            "example_ch": "数学比历史难一点儿/一些/得多/多了。",
+            "example_pinyin": "Shùxué bǐ lìshǐ nán yìdiǎnr/yìxiē/dé duō/duō le.",
+            "example_fr": "Les mathématiques sont un peu/un peu/beaucoup/beaucoup plus difficiles que l'histoire.",
+            "explanation": "Comparaison de supériorité avec différents compléments de degré."
+        },
+        {
+            "id": "L9-4",
+            "lesson": "HSK3-L9",
+            "title": "Comparaison d'infériorité avec '没有'",
+            "structure": "A 没有 B + 这么/那么 + Adj",
+            "example_ch": "数学没有历史这么/那么难。",
+            "example_pinyin": "Shùxué méiyǒu lìshǐ zhème/nàme nán.",
+            "example_fr": "Les mathématiques ne sont pas aussi difficiles que l'histoire.",
+            "explanation": "Comparaison d'infériorité avec '没有'."
+        },
+        {
+            "id": "L9-5",
+            "lesson": "HSK3-L9",
+            "title": "Expression des nombres approximatifs (1)",
+            "structure": "Num + Num + 1 (ex: 一两、三四、五六...)",
+            "example_ch": "学校附近有三四个车站。",
+            "example_pinyin": "Xuéxiào fùjìn yǒu sān-sì gè chēzhàn.",
+            "example_fr": "Il y a trois ou quatre arrêts de bus près de l'école.",
+            "explanation": "Deux nombres consécutifs expriment une approximation."
+        },
+        
+        # === LEÇON 10 ===
+        {
+            "id": "L10-1",
+            "lesson": "HSK3-L10",
+            "title": "Phrase en '把' (1)",
+            "structure": "A 把 B + V + 了",
+            "example_ch": "我把爸爸的生日忘了。",
+            "example_pinyin": "Wǒ bǎ bàba de shēngrì wàng le.",
+            "example_fr": "J'ai oublié l'anniversaire de papa.",
+            "explanation": "Structure '把' pour exprimer le déplacement ou la transformation."
+        },
+        {
+            "id": "L10-2",
+            "lesson": "HSK3-L10",
+            "title": "Phrase en '把' avec négation",
+            "structure": "A + 没/想/希望 + 把 B + V + 了",
+            "example_ch": "我没/想/希望/把书看了。",
+            "example_pinyin": "Wǒ méi/xiǎng/xīwàng/bǎ shū kàn le.",
+            "example_fr": "Je n'ai pas/Je pense/Je souhaite avoir lu le livre.",
+            "explanation": "La négation ou les verbes modaux se placent avant '把'."
+        },
+        
+        # === LEÇON 11 ===
+        {
+            "id": "L11-1",
+            "lesson": "HSK3-L11",
+            "title": "Expression des nombres approximatifs (2)",
+            "structure": "Num + M + N + 左右",
+            "example_ch": "王经理两点左右来了个电话。",
+            "example_pinyin": "Wáng jīnglǐ liǎng diǎn zuǒyòu láile gè diànhuà.",
+            "example_fr": "Le directeur Wang a téléphoné vers deux heures.",
+            "explanation": "'左右' après un nombre exprime une approximation."
+        },
+        {
+            "id": "L11-2",
+            "lesson": "HSK3-L11",
+            "title": "'才' pour actions tardives ou difficiles",
+            "structure": "才 + V",
+            "example_ch": "来机场的路上我才发现忘记带护照了。",
+            "example_pinyin": "Lái jīchǎng de lùshang wǒ cái fāxiàn wàngjì dài hùzhào le.",
+            "example_fr": "C'est seulement sur le chemin de l'aéroport que j'ai réalisé avoir oublié mon passeport.",
+            "explanation": "'才' expresse qu'une action est tardive, lente ou insatisfaisante."
+        },
+        {
+            "id": "L11-3",
+            "lesson": "HSK3-L11",
+            "title": "'就' pour actions précoces ou faciles",
+            "structure": "就 + V",
+            "example_ch": "你怎么这么早就要睡觉了？",
+            "example_pinyin": "Nǐ zěnme zhème zǎo jiù yào shuìjiào le?",
+            "example_fr": "Pourquoi vas-tu déjà dormir si tôt ?",
+            "explanation": "'就' expresse qu'une action est précoce, rapide ou satisfaisante."
+        },
+        {
+            "id": "L11-4",
+            "lesson": "HSK3-L11",
+            "title": "Phrase en '把' avec lieu (在)",
+            "structure": "A 把 B + V + 在 + lieu",
+            "example_ch": "老师把作业放在桌子上了。",
+            "example_pinyin": "Lǎoshī bǎ zuòyè fàng zài zhuōzi shàng le.",
+            "example_fr": "Le professeur a mis les devoirs sur la table.",
+            "explanation": "Structure '把' pour placer quelque chose à un endroit."
+        },
+        {
+            "id": "L11-5",
+            "lesson": "HSK3-L11",
+            "title": "Phrase en '把' avec déplacement (到)",
+            "structure": "A 把 B + V + 到 + lieu",
+            "example_ch": "我帮你把衣服放到行李箱里吧。",
+            "example_pinyin": "Wǒ bāng nǐ bǎ yīfu fàng dào xínglixiāng lǐ ba.",
+            "example_fr": "Laisse-moi t'aider à mettre tes vêtements dans la valise.",
+            "explanation": "Structure '把' pour déplacer quelque chose vers un endroit."
+        },
+        {
+            "id": "L11-6",
+            "lesson": "HSK3-L11",
+            "title": "Phrase en '把' avec transfert (给)",
+            "structure": "A 把 B + V + 给 + quelqu'un",
+            "example_ch": "我把鲜花送给老师了。",
+            "example_pinyin": "Wǒ bǎ xiānhuā sòng gěi lǎoshī le.",
+            "example_fr": "J'ai offert les fleurs au professeur.",
+            "explanation": "Structure '把' pour donner ou transférer quelque chose à quelqu'un."
+        },
+        
+        # === LEÇON 12 ===
+        {
+            "id": "L12-1",
+            "lesson": "HSK3-L12",
+            "title": "复合趋向补语 simple (Complément directionnel composé)",
+            "structure": "V1 + V2来/去",
+            "example_ch": "小狗从房间跑出来。",
+            "example_pinyin": "Xiǎo gǒu cóng fángjiān pǎo chūlai.",
+            "example_fr": "Le petit chien est sorti de la pièce en courant.",
+            "explanation": "Combinaison d'un verbe de direction avec '来/去'."
+        },
+        {
+            "id": "L12-2",
+            "lesson": "HSK3-L12",
+            "title": "复合趋向补语 avec lieu",
+            "structure": "V1 + V2 + O(lieu) + 来/去",
+            "example_ch": "弟弟跑下楼去。",
+            "example_pinyin": "Dìdi pǎo xià lóu qù.",
+            "example_fr": "Le petit frère a couru en bas de l'escalier.",
+            "explanation": "Le complément de lieu précède '来/去'."
+        },
+        {
+            "id": "L12-3",
+            "lesson": "HSK3-L12",
+            "title": "复合趋向补语 avec objet",
+            "structure": "V1 + V2 + O(chose) + 来/去  OU  V1 + V2来/去 + O(chose)",
+            "example_ch": "老师拿出一本书来。/ 老师拿出来一本书。",
+            "example_pinyin": "Lǎoshī ná chū yì běn shū lái. / Lǎoshī ná chūlai yì běn shū.",
+            "example_fr": "Le professeur a sorti un livre.",
+            "explanation": "Deux positions possibles pour l'objet."
+        },
+        {
+            "id": "L12-4",
+            "lesson": "HSK3-L12",
+            "title": "复合趋向补语 avec action terminée",
+            "structure": "V1(terminé) + V2来/去 + O(chose)",
+            "example_ch": "爸爸买回来了一个西瓜。",
+            "example_pinyin": "Bàba mǎi huílai le yí gè xīguā.",
+            "example_fr": "Papa a acheté et rapporté une pastèque.",
+            "explanation": "Quand la première action est terminée."
+        },
+        {
+            "id": "L12-5",
+            "lesson": "HSK3-L12",
+            "title": "'一边...一边...' (En même temps)",
+            "structure": "一边 + V1 + 一边 + V2",
+            "example_ch": "我丈夫喜欢一边看报纸一边吃早饭。",
+            "example_pinyin": "Wǒ zhàngfu xǐhuan yìbiān kàn bàozhǐ yìbiān chī zǎofàn.",
+            "example_fr": "Mon mari aime lire le journal en prenant le petit déjeuner.",
+            "explanation": "Exprime deux actions simultanées."
+        },
+        
+        # === LEÇON 13 ===
+        {
+            "id": "L13-1",
+            "lesson": "HSK3-L13",
+            "title": "Phrase en '把' avec complément de résultat",
+            "structure": "A 把 B + V + complément de résultat",
+            "example_ch": "我把衣服洗干净了。",
+            "example_pinyin": "Wǒ bǎ yīfu xǐ gānjìng le.",
+            "example_fr": "J'ai lavé les vêtements jusqu'à ce qu'ils soient propres.",
+            "explanation": "Structure '把' avec résultat de l'action."
+        },
+        {
+            "id": "L13-2",
+            "lesson": "HSK3-L13",
+            "title": "Phrase en '把' avec complément de direction",
+            "structure": "A 把 B + V + complément de direction",
+            "example_ch": "请同学们把铅笔拿出来。",
+            "example_pinyin": "Qǐng tóngxuémen bǎ qiānbǐ ná chūlai.",
+            "example_fr": "S'il vous plaît, sortez vos crayons.",
+            "explanation": "Structure '把' avec direction du mouvement."
+        },
+        {
+            "id": "L13-3",
+            "lesson": "HSK3-L13",
+            "title": "Séquence d'actions",
+            "structure": "先..., 再/又..., 然后...",
+            "example_ch": "回家以后，我先做作业，再吃饭，然后看电视。",
+            "example_pinyin": "Huí jiā yǐhòu, wǒ xiān zuò zuòyè, zài chīfàn, ránhòu kàn diànshì.",
+            "example_fr": "Après être rentré à la maison, je fais d'abord mes devoirs, puis je mange, et ensuite je regarde la télé.",
+            "explanation": "Exprime l'ordre chronologique des actions."
+        },
+        
+        # === LEÇON 14 ===
+        {
+            "id": "L14-1",
+            "lesson": "HSK3-L14",
+            "title": "'除了...以外，...都...' (Exception)",
+            "structure": "除了...以外，...都...",
+            "example_ch": "除了他，其他人都来了。",
+            "example_pinyin": "Chúle tā, qítā rén dōu lái le.",
+            "example_fr": "Tout le monde est venu sauf lui.",
+            "explanation": "Exprime une exception (tous... sauf...)."
+        },
+        {
+            "id": "L14-2",
+            "lesson": "HSK3-L14",
+            "title": "'除了...以外，...也/还...' (Addition)",
+            "structure": "除了...以外，...也/还...",
+            "example_ch": "除了汉语以外，我也/还会说英语。",
+            "example_pinyin": "Chúle Hànyǔ yǐwài, wǒ yě/hái huì shuō Yīngyǔ.",
+            "example_fr": "En plus du chinois, je parle aussi anglais.",
+            "explanation": "Exprime l'addition (en plus de...)."
+        },
+        
+        # === LEÇON 15 ===
+        {
+            "id": "L15-1",
+            "lesson": "HSK3-L15",
+            "title": "疑问代词活用 (2)",
+            "structure": "...什么... (sans changer le sens)",
+            "example_ch": "以后有什么不明白的地方，可以给我打电话。",
+            "example_pinyin": "Yǐhòu yǒu shénme bù míngbai de dìfang, kěyǐ gěi wǒ dǎ diànhuà.",
+            "example_fr": "Si tu as des choses que tu ne comprends pas à l'avenir, tu peux m'appeler.",
+            "explanation": "'什么' utilisé de manière indéfinie, équivalent à 'des choses que'."
+        },
+        {
+            "id": "L15-2",
+            "lesson": "HSK3-L15",
+            "title": "Expression du degré '极了'",
+            "structure": "Adj + 极了",
+            "example_ch": "他满意极了。",
+            "example_pinyin": "Tā mǎnyì jí le.",
+            "example_fr": "Il est extrêmement satisfait.",
+            "explanation": "'极了' exprime le degré le plus élevé."
+        },
+        {
+            "id": "L15-3",
+            "lesson": "HSK3-L15",
+            "title": "Structure conditionnelle '如果...就...'",
+            "structure": "如果...(的话)，就...",
+            "example_ch": "如果不舒服(的话)，就去医院检查一下吧。",
+            "example_pinyin": "Rúguǒ bù shūfu (de huà), jiù qù yīyuàn jiǎnchá yíxià ba.",
+            "example_fr": "Si tu ne te sens pas bien, va à l'hôpital pour un examen.",
+            "explanation": "Structure conditionnelle standard."
+        },
+        {
+            "id": "L15-4",
+            "lesson": "HSK3-L15",
+            "title": "Structure conditionnelle avec deux sujets",
+            "structure": "S1 + 如果..., S2 + 就...",
+            "example_ch": "如果你喜欢，我就给你买。",
+            "example_pinyin": "Rúguǒ nǐ xǐhuan, wǒ jiù gěi nǐ mǎi.",
+            "example_fr": "Si tu aimes ça, je te l'achète.",
+            "explanation": "Conditionnelle avec sujets différents pour chaque proposition."
+        },
+        
+        # === LEÇON 16 ===
+        {
+            "id": "L16-1",
+            "lesson": "HSK3-L16",
+            "title": "Complément d'état complexe",
+            "structure": "Adj/V + 得 + proposition",
+            "example_ch": "人们忙得没时间跟别人见面。",
+            "example_pinyin": "Rénmen máng dé méi shíjiān gēn bié rén jiànmiàn.",
+            "example_fr": "Les gens sont trop occupés pour voir les autres.",
+            "explanation": "Complément d'état qui décrit le degré ou le résultat."
+        },
+        {
+            "id": "L16-2",
+            "lesson": "HSK3-L16",
+            "title": "Redoublement d'adjectifs monosyllabiques",
+            "structure": "Adj + Adj + 的",
+            "example_ch": "你的女儿白白的、胖胖的，真可爱。",
+            "example_pinyin": "Nǐ de nǚ'ér bái bái de, pàng pàng de, zhēn kě'ài.",
+            "example_fr": "Ta fille, toute blanche et potelée, est vraiment mignonne.",
+            "explanation": "Redoublement pour exprimer une qualité atténuée ou affective."
+        },
+        {
+            "id": "L16-3",
+            "lesson": "HSK3-L16",
+            "title": "Redoublement de verbes bisyllabiques",
+            "structure": "V(AB) → V(ABAB)",
+            "example_ch": "我真应该多锻炼锻炼了。",
+            "example_pinyin": "Wǒ zhēn yīnggāi duō duànliàn duànliàn le.",
+            "example_fr": "Je devrais vraiment faire plus d'exercice.",
+            "explanation": "Redoublement pour exprimer une action brève ou légère."
+        },
+        
+        # === LEÇON 17 ===
+        {
+            "id": "L17-1",
+            "lesson": "HSK3-L17",
+            "title": "疑问代词表示任指 (tous les mêmes)",
+            "structure": "Q + 都 (pour montrer que tout est identique)",
+            "example_ch": "最近我觉得哪儿都不舒服。",
+            "example_pinyin": "Zuìjìn wǒ juéde nǎr dōu bù shūfu.",
+            "example_fr": "Ces derniers temps, je ne me sens bien nulle part.",
+            "explanation": "Les pronoms interrogatifs avec '都' expriment la totalité."
+        },
+        {
+            "id": "L17-2",
+            "lesson": "HSK3-L17",
+            "title": "Structure conditionnelle '只要...就...'",
+            "structure": "S1 + 只要..., S2 + 就...",
+            "example_ch": "只要我喜欢，我就买。",
+            "example_pinyin": "Zhǐyào wǒ xǐhuan, wǒ jiù mǎi.",
+            "example_fr": "Tant que j'aime ça, je l'achète.",
+            "explanation": "'只要' exprime une condition suffisante."
+        },
+        {
+            "id": "L17-3",
+            "lesson": "HSK3-L17",
+            "title": "Phrase avec '使', '叫', '让'",
+            "structure": "A + 使/叫/让 + B + Adj/V",
+            "example_ch": "运动使他更年轻。",
+            "example_pinyin": "Yùndòng shǐ tā gèng niánqīng.",
+            "example_fr": "Le sport le rend plus jeune.",
+            "explanation": "Ces verbes signifient 'faire faire', 'causer'."
         }
     ]
 }
